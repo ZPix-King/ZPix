@@ -1,0 +1,286 @@
+2023-12-08T17:03:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:323
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(136): Appside_Shortcodes->load_plugin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->plugin_assets('')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#5 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#6 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(3052): do_action('wp_head')
+#9 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\header.php(20): wp_head()
+#10 Z:\xampp\htdocs\ZPix\wp-includes\template.php(790): require_once('Z:\\xampp\\htdocs...')
+#11 Z:\xampp\htdocs\ZPix\wp-includes\template.php(725): load_template('Z:\\xampp\\htdocs...', true, Array)
+#12 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\index.php(15): get_header()
+#14 Z:\xampp\htdocs\ZPix\wp-includes\template-loader.php(106): include('Z:\\xampp\\htdocs...')
+#15 Z:\xampp\htdocs\ZPix\wp-blog-header.php(19): require_once('Z:\\xampp\\htdocs...')
+#16 Z:\xampp\htdocs\ZPix\index.php(17): require('Z:\\xampp\\htdocs...')
+#17 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 323
+
+2023-12-08T17:04:21+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('index.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\index.php(137): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:04:41+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('index.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\index.php(137): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:04:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('index.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\index.php(137): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:04:51+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('index.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\index.php(137): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:05:03+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('index.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\index.php(137): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:05:04+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('index.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\index.php(137): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:05:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('index.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\index.php(137): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:05:06+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('index.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\index.php(137): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:05:08+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:323
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(136): Appside_Shortcodes->load_plugin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->plugin_assets('')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#5 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#6 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(3052): do_action('wp_head')
+#9 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\header.php(20): wp_head()
+#10 Z:\xampp\htdocs\ZPix\wp-includes\template.php(790): require_once('Z:\\xampp\\htdocs...')
+#11 Z:\xampp\htdocs\ZPix\wp-includes\template.php(725): load_template('Z:\\xampp\\htdocs...', true, Array)
+#12 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\index.php(15): get_header()
+#14 Z:\xampp\htdocs\ZPix\wp-includes\template-loader.php(106): include('Z:\\xampp\\htdocs...')
+#15 Z:\xampp\htdocs\ZPix\wp-blog-header.php(19): require_once('Z:\\xampp\\htdocs...')
+#16 Z:\xampp\htdocs\ZPix\index.php(17): require('Z:\\xampp\\htdocs...')
+#17 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 323
+
+2023-12-08T17:06:37+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:323
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(136): Appside_Shortcodes->load_plugin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->plugin_assets('')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#5 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#6 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(3052): do_action('wp_head')
+#9 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\header.php(20): wp_head()
+#10 Z:\xampp\htdocs\ZPix\wp-includes\template.php(790): require_once('Z:\\xampp\\htdocs...')
+#11 Z:\xampp\htdocs\ZPix\wp-includes\template.php(725): load_template('Z:\\xampp\\htdocs...', true, Array)
+#12 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\index.php(15): get_header()
+#14 Z:\xampp\htdocs\ZPix\wp-includes\template-loader.php(106): include('Z:\\xampp\\htdocs...')
+#15 Z:\xampp\htdocs\ZPix\wp-blog-header.php(19): require_once('Z:\\xampp\\htdocs...')
+#16 Z:\xampp\htdocs\ZPix\index.php(17): require('Z:\\xampp\\htdocs...')
+#17 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 323
+
+2023-12-08T17:17:00+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:323
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(136): Appside_Shortcodes->load_plugin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->plugin_assets('')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#5 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#6 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(3052): do_action('wp_head')
+#9 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\header.php(20): wp_head()
+#10 Z:\xampp\htdocs\ZPix\wp-includes\template.php(790): require_once('Z:\\xampp\\htdocs...')
+#11 Z:\xampp\htdocs\ZPix\wp-includes\template.php(725): load_template('Z:\\xampp\\htdocs...', true, Array)
+#12 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\index.php(15): get_header()
+#14 Z:\xampp\htdocs\ZPix\wp-includes\template-loader.php(106): include('Z:\\xampp\\htdocs...')
+#15 Z:\xampp\htdocs\ZPix\wp-blog-header.php(19): require_once('Z:\\xampp\\htdocs...')
+#16 Z:\xampp\htdocs\ZPix\index.php(17): require('Z:\\xampp\\htdocs...')
+#17 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 323
+
+2023-12-08T17:17:02+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:323
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(136): Appside_Shortcodes->load_plugin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->plugin_assets('')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#5 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#6 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(3052): do_action('wp_head')
+#9 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\header.php(20): wp_head()
+#10 Z:\xampp\htdocs\ZPix\wp-includes\template.php(790): require_once('Z:\\xampp\\htdocs...')
+#11 Z:\xampp\htdocs\ZPix\wp-includes\template.php(725): load_template('Z:\\xampp\\htdocs...', true, Array)
+#12 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\index.php(15): get_header()
+#14 Z:\xampp\htdocs\ZPix\wp-includes\template-loader.php(106): include('Z:\\xampp\\htdocs...')
+#15 Z:\xampp\htdocs\ZPix\wp-blog-header.php(19): require_once('Z:\\xampp\\htdocs...')
+#16 Z:\xampp\htdocs\ZPix\index.php(17): require('Z:\\xampp\\htdocs...')
+#17 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 323
+
+2023-12-08T17:34:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('index.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\index.php(137): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:37:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:323
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(136): Appside_Shortcodes->load_plugin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->plugin_assets('')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#5 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#6 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(3052): do_action('wp_head')
+#9 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\header.php(20): wp_head()
+#10 Z:\xampp\htdocs\ZPix\wp-includes\template.php(790): require_once('Z:\\xampp\\htdocs...')
+#11 Z:\xampp\htdocs\ZPix\wp-includes\template.php(725): load_template('Z:\\xampp\\htdocs...', true, Array)
+#12 Z:\xampp\htdocs\ZPix\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#13 Z:\xampp\htdocs\ZPix\wp-content\themes\theme\index.php(15): get_header()
+#14 Z:\xampp\htdocs\ZPix\wp-includes\template-loader.php(106): include('Z:\\xampp\\htdocs...')
+#15 Z:\xampp\htdocs\ZPix\wp-blog-header.php(19): require_once('Z:\\xampp\\htdocs...')
+#16 Z:\xampp\htdocs\ZPix\index.php(17): require('Z:\\xampp\\htdocs...')
+#17 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 323
+
+2023-12-08T17:40:31+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('index.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'index.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\index.php(137): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:40:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('options-general...')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'options-general...')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\options-general.php(64): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:40:40+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('plugins.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\plugins.php(621): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:40:41+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('plugins.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\plugins.php(621): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
+2023-12-08T17:40:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $in_footer in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php:380
+Stack trace:
+#0 Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php(334): Appside_Shortcodes->load_admin_js_files()
+#1 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(324): Appside_Shortcodes->admin_assets('plugins.php')
+#2 Z:\xampp\htdocs\ZPix\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 Z:\xampp\htdocs\ZPix\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 Z:\xampp\htdocs\ZPix\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'plugins.php')
+#5 Z:\xampp\htdocs\ZPix\wp-admin\plugins.php(621): require_once('Z:\\xampp\\htdocs...')
+#6 {main}
+  thrown in Z:\xampp\htdocs\ZPix\wp-content\plugins\aapside-master\inc\class-appside-master-init.php on line 380
+
